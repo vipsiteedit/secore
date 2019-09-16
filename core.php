@@ -1,4 +1,4 @@
 #! /usr/bin/php
 <?php
-echo "hello";
+echo "test hello";
 
