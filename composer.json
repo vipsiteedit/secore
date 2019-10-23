@@ -1,0 +1,11 @@
+{
+    "name": "ewebcms/cms",
+    "description": "CMS kernel installation package",
+	"type": "core",
+    "license": "MIT",
+	"authors": [{
+		"name": "Sergey Schelkonogov",
+		"email": "vipsiteedit@gmail.com"
+	}],
+    "require": {}
+}
