@@ -1,11 +1,22 @@
 {
-    "name": "ewebcms/cms",
+    "name": "ewebcms/ewebcms",
     "description": "CMS kernel installation package",
-	"type": "core",
+	"type": "project",
+	"keywords": [
+        "CMS",
+        "ewebcms"
+    ], 
     "license": "MIT",
 	"authors": [{
 		"name": "Sergey Schelkonogov",
 		"email": "vipsiteedit@gmail.com"
 	}],
-    "require": {}
+    "require": {
+		"php": "^7.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"cms\\": "/"
+		}
+	}
 }
